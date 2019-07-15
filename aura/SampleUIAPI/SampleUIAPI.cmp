@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:hasSObjectName" access="global" >
+	<lightning:recordForm 	onload="{!c.handleLoad}" 
+                            recordId="{!v.recordId}" 
+                            objectApiName="{!v.sObjectName}"
+                            layoutType="Full" 
+                            mode="view"
+                            class="slds-hide" /> 
+    <div>Sample UI API</div>
+</aura:component>
